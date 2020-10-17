@@ -9,11 +9,16 @@
         //handleData
         //here's where you would call the function that puts the pieces on the page
         console.log(data.coursename);
-        debugger;
+        
         function content(data) {
             let profpanel = document.querySelector('.profPanel');
             let output = profpanel.querySelector('.text-muted');
-            output.innerHTML = data.coursename;
+            let time = profpanel.querySelector('.list-inline');
+            let prof = profpanel.querySelector('.profname');
+
+            output.innerHTML = data.coursename + " - " + data.coursecode;
+            prof.innerHTML = "Professor - " + (data.profname);
+            time.innerHTML = data.classtime;
             
         }
 
