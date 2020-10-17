@@ -1,4 +1,10 @@
-# SASS build system for a css operated file
+# AJAX Build
+
+## Plan
+The idea of the Build is to populate data where required for eg. course name, professor name etc. using json file and by using Fetch API and building a framework with it.
+
+## Path
+Main idea was to locate the headers and paragraph tags and then add data into it using the Fetch API and then converting the readable json file to a javascript accesible file and then running the commands to add data from that file to the tags.
 
 ## Description
 Making an easy yet efficient sass framework for an already css driven html.
